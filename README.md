@@ -1,44 +1,56 @@
 # ANC Website
 
-เว็บไซต์สำหรับระบบฝากครรภ์ (ANC) เชื่อมต่อกับ LINE Official Account (OA) และ HIS/HOSxP  
-รองรับการแสดงตารางนัด, การแจ้งเตือน, และการบันทึกข้อมูล
-
-## ฟีเจอร์
-- แสดงตารางนัด ANC
-- ส่งข้อความแจ้งเตือนผ่าน LINE OA
-- บันทึกข้อมูลลง Google Sheets หรือ HIS/HOSxP
-- รองรับ push และ reply message
-
-## ความต้องการระบบ
-- Node.js เวอร์ชันล่าสุด
-- npm หรือ yarn สำหรับจัดการ dependencies
-- LINE Messaging API key
-- Google Sheets API key
-- Hosting เช่น Vercel, Netlify หรือ server โรงพยาบาล
-
-## วิธีใช้งาน
-1. Clone repo  
-   ```bash
-   git clone https://github.com/ratchanon-noknoy2318/anc_website.git
-   npm install
-   npm run dev
-   
-2. เปิดเว็บที่ http://localhost:3000 เพื่อดูหน้าเว็บ ANC
-3. แก้ไข content ในโฟลเดอร์ app/ เช่น ตารางนัด, ข้อมูลสุขภาพ, FAQ
+Antenatal Care (ANC) website integrated with **LINE Official Account (OA)** and **Google Sheet**.  
+The system supports appointment schedules, notifications, and healthcare data recording.
 
 ---
 
+## Features
+
+- Display ANC appointment schedules
+- Send notifications through LINE OA
+- Store data in Google Sheets
+- Support push messages and reply messages
+
+---
+
+## Requirements
+
+- Latest version of Node.js
+- npm or yarn for dependency management
+- LINE Messaging API key
+- Google Sheets API key
+- Hosting such as Vercel, Netlify, or hospital server
+
+---
+
+## How to Use
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/ratchanon-noknoy2318/anc_website.git
+npm install
+npm run dev
+
+```
+2. Open http://localhost:3000 to view the ANC website.
+3. Update content in the app/ directory, such as appointment schedules, healthcare information, and FAQ content.
+
+---
 ## Author
 
-**Ratchanon Noknoy**  
-- GitHub: [ratchanon-noknoy2318](https://github.com/ratchanon-noknoy2318)  
-- LinkedIn: [linkedin.com/in/ratchanon-noknoy](https://linkedin.com/in/ratchanon-noknoy)  
+Ratchanon Noknoy
+
+- GitHub: ratchanon-noknoy2318
+- LinkedIn: linkedin.com/in/ratchanon-noknoy
 - Role: Solo Software Engineer
 
 ---
+
 ## Usage Policy
 
-- ใช้สำหรับ **เว็บไซต์ ANC ของโรงพยาบาล** เท่านั้น
-- ห้ามนำไปใช้เพื่อการค้า หรือใช้งานนอกเหนือจากบริบทโรงพยาบาล
-- ต้องเคารพกฎหมายและข้อบังคับด้านข้อมูลส่วนบุคคล (PDPA/HIPAA)
-- ผู้พัฒนาขอสงวนสิทธิ์ไม่รับผิดชอบต่อการใช้งานที่ผิดวัตถุประสงค์
+- This project is intended for hospital ANC website usage only.
+- Commercial use or usage outside the healthcare context is prohibited.
+- Users must comply with personal data protection regulations, including **Thailand PDPA** and **HIPAA-aligned practices**.
+- The developer is not responsible for misuse or unauthorized usage of this system.
